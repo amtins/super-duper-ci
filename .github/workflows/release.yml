@@ -34,4 +34,6 @@ jobs:
 
       - name: Something failed 🫣
         if: failure()
-        run: echo "It seems something didn't go as planned 🤔"
+        run: |
+          echo "It seems something didn't go as planned 🤔"
+          exit 1
