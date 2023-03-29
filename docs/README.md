@@ -45,3 +45,8 @@
 
   ```
 
+- [jest](https://github.com/facebook/jest)
+
+  ```bash
+  npm i -D jest babel-jest
+  ```
