@@ -35,3 +35,13 @@
   npx semantic-release --dry-run
 
   ```
+
+- [parcel](https://github.com/parcel-bundler/parcel)
+
+  ```bash
+  npm i -D parcel
+  echo "{\"extends\": \"@parcel/config-default\",\"transformers\": {\"*.{js,mjs,jsx,cjs,ts,tsx}\": [\"@parcel/transformer-js\",\"@parcel/transformer-react-refresh-wrap\"]}}" > .parcelrc
+  echo "{\"presets\": [[\"@babel/preset-env\", {\"targets\": {\"node\": \"current\"}}]]}" > .babelrc
+
+  ```
+
