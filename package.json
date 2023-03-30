@@ -12,6 +12,7 @@
   "description": "Super Duper CI",
   "source": "index.html",
   "scripts": {
+    "dev": "parcel -p 6969",
     "test": "jest",
     "prepare": "husky install",
     "release:ci": "semantic-release"
