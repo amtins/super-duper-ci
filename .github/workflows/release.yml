@@ -21,6 +21,7 @@ jobs:
         env :
           CI: true
         run: |
+          npm pkg delete scripts.prepare
           npm ci
           npm test
 
