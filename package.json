@@ -1,8 +1,16 @@
 {
   "name": "super-duper-ci",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amtins/super-duper-ci.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "description": "Super Duper CI",
+  "source": "index.html",
   "scripts": {
     "test": "jest",
     "prepare": "husky install",
