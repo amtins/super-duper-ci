@@ -1,6 +1,6 @@
 {
   "name": "super-duper-ci",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/super-duper-ci.git"
@@ -14,7 +14,6 @@
   "scripts": {
     "dev": "parcel -p 6969",
     "test": "jest",
-    "prepare": "husky install",
     "release:ci": "semantic-release"
   },
   "keywords": [],
