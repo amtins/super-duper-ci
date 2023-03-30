@@ -14,7 +14,7 @@
       {
         "assets": [
           {
-            "path": "version.js",
+            "path": "src/version.js",
             "label": "version script distribution"
           }
         ]
