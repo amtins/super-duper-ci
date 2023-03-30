@@ -29,8 +29,8 @@ jobs:
         run: npm run release:ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.COUSCOUS }}
-          NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
+          NPM_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
+          NODE_AUTH_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
 
       - name: Something failed 🫣
         if: failure()
