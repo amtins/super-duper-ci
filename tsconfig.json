@@ -1,6 +1,8 @@
 {
   "include": ["src/**/*"],
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict":true,
     "allowJs": true,
     "declaration": true,
     "emitDeclarationOnly": true,
