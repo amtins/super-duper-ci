@@ -32,8 +32,16 @@
       {
         "assets": [
           {
-            "path": "src/version.js",
-            "label": "version.js"
+            "path": "dist/custom-button.js",
+            "label": "custom-button.js"
+          },
+          {
+            "path": "dist/custom-button.es.js",
+            "label": "custom-button.es.js"
+          },
+          {
+            "path": "dist/custom-button.d.ts",
+            "label": "custom-button.d.ts"
           }
         ]
       }
