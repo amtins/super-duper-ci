@@ -10,9 +10,13 @@
     "access": "public"
   },
   "description": "Super Duper CI",
-  "source": "index.html",
+  "source": "src/components/custom-button.js",
+  "main": "dist/custom-button.js",
+  "module": "dist/custom-button.es.js",
+  "types": "dist/custom-button.d.ts",
   "scripts": {
-    "dev": "parcel -p 6969",
+    "build" : "parcel build",
+    "dev": "parcel -p 6969 *.html",
     "eslint": "eslint --ext .js src",
     "test": "jest",
     "release:ci": "semantic-release"
@@ -23,9 +27,12 @@
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.4",
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "@parcel/packager-ts": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
