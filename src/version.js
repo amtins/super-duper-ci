@@ -1,3 +1,5 @@
 import {version} from '../package.json';
 
-export default getAppVersion = () => version;
+const getAppVersion = () => version;
+
+export default getAppVersion;

@@ -13,6 +13,7 @@
   "source": "index.html",
   "scripts": {
     "dev": "parcel -p 6969",
+    "eslint": "eslint --ext .js src",
     "test": "jest",
     "release:ci": "semantic-release"
   },
@@ -31,6 +32,7 @@
     "@semantic-release/npm": "^10.0.2",
     "babel-jest": "^29.5.0",
     "buffer": "^5.7.1",
+    "eslint": "^8.37.0",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
     "parcel": "^2.8.3",
