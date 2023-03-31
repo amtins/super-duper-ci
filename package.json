@@ -1,6 +1,6 @@
 {
   "name": "@amtins/super-duper-ci",
-  "version": "1.2.0",
+  "version": "1.3.0-main.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/super-duper-ci.git"
@@ -15,7 +15,7 @@
   "module": "dist/custom-button.es.js",
   "types": "dist/custom-button.d.ts",
   "scripts": {
-    "build" : "parcel build",
+    "build": "parcel build",
     "dev": "parcel -p 6969 *.html",
     "eslint": "eslint --ext .js src",
     "test": "jest",

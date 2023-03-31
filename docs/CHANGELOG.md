@@ -1,3 +1,11 @@
+# [1.3.0-main.1](https://github.com/amtins/super-duper-ci/compare/v1.2.0...v1.3.0-main.1) (2023-03-31)
+
+
+### Features
+
+* **app:** add custom button ([4db810b](https://github.com/amtins/super-duper-ci/commit/4db810bb54f0d64b62372431ffd020c58e020e8c))
+* **custom-button:** add new button ([ace2711](https://github.com/amtins/super-duper-ci/commit/ace2711c3a661a11eca3ddd4aad674031e5b108f))
+
 # [1.2.0](https://github.com/amtins/super-duper-ci/compare/v1.1.0...v1.2.0) (2023-03-31)
 
 
