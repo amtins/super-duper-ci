@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/amtins/super-duper-ci/compare/v1.3.0...v1.4.0) (2023-03-31)
+
+
+### Features
+
+* **github-actions:** pull request ([5dadc9a](https://github.com/amtins/super-duper-ci/commit/5dadc9abb780095cc8a2b592222e2dd15d2a3d86))
+
 # [1.3.0](https://github.com/amtins/super-duper-ci/compare/v1.2.0...v1.3.0) (2023-03-31)
 
 
