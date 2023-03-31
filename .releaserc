@@ -29,7 +29,7 @@
         "assets": [
           {
             "path": "src/version.js",
-            "label": "version script distribution"
+            "label": "version.js"
           }
         ]
       }
