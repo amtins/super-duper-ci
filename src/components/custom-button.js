@@ -5,7 +5,7 @@ import videojs from 'video.js';
 import { version } from '../../package.json';
 
 /**
- * Base class for all buttons.
+ * Base class for all custom buttons.
  *
  * @extends Button
  */
