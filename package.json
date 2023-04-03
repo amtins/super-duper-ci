@@ -22,7 +22,7 @@
     "release:ci": "semantic-release"
   },
   "keywords": [],
-  "author": "",
+  "author": "amtins",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.3",
