@@ -1,3 +1,10 @@
+# [1.5.0-pre-release.2](https://github.com/amtins/super-duper-ci/compare/v1.5.0-pre-release.1...v1.5.0-pre-release.2) (2023-04-03)
+
+
+### Bug Fixes
+
+* **custom-button:** comment ([f74c3cd](https://github.com/amtins/super-duper-ci/commit/f74c3cdf25dd5337025b5da3d55656211568403c))
+
 # [1.5.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v1.4.0...v1.5.0-pre-release.1) (2023-04-03)
 
 
