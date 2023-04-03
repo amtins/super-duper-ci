@@ -6,6 +6,30 @@
 * **action:** rename branch ([4687563](https://github.com/amtins/super-duper-ci/commit/46875638eb1e2f6ce67909525138cd2316324aa6))
 * **actions:** remove linter job ([94ccd86](https://github.com/amtins/super-duper-ci/commit/94ccd8655fe6c798b2af626c69a85249823ffa0c))
 * **custom-button:** comment ([a4e2e03](https://github.com/amtins/super-duper-ci/commit/a4e2e03ab4b7b9757dc0e8823174232592d1d0e4))
+* **github-actions:** should fix the release issue ([b63e859](https://github.com/amtins/super-duper-ci/commit/b63e8598f5557f9a126aa5cfe187506d70219ccf))
+* **semantic-release:** track next release ([8af869d](https://github.com/amtins/super-duper-ci/commit/8af869d844bf21e5beded4bc3aeadb5c85b248b4))
+
+
+### Features
+
+* author name ([ab2be29](https://github.com/amtins/super-duper-ci/commit/ab2be2987dbd3a9922a9a3adced8e9645bb335dc))
+* **custom-button:** override ([0c4aceb](https://github.com/amtins/super-duper-ci/commit/0c4aceb5f536c90c72b0eebcd2d0861e73ad316c))
+* **github-actions:** run on merge ([8136ed1](https://github.com/amtins/super-duper-ci/commit/8136ed1d407ca87a64a05499cc1b946c4abfc09a))
+* **semantic-release:** add next pre-release to distribution channel ([beb4b65](https://github.com/amtins/super-duper-ci/commit/beb4b65b61c5b688ae60a52572e41683222776c1))
+
+
+### BREAKING CHANGES
+
+* It will be significant
+
+# [2.0.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v1.4.0...v2.0.0-pre-release.1) (2023-04-03)
+
+
+### Bug Fixes
+
+* **action:** rename branch ([4687563](https://github.com/amtins/super-duper-ci/commit/46875638eb1e2f6ce67909525138cd2316324aa6))
+* **actions:** remove linter job ([94ccd86](https://github.com/amtins/super-duper-ci/commit/94ccd8655fe6c798b2af626c69a85249823ffa0c))
+* **custom-button:** comment ([a4e2e03](https://github.com/amtins/super-duper-ci/commit/a4e2e03ab4b7b9757dc0e8823174232592d1d0e4))
 * **github-actions:** should fix the release issue ([d2c9ed6](https://github.com/amtins/super-duper-ci/commit/d2c9ed621b920217e3e477dd72a77ec1cf2a2749))
 * **semantic-release:** track next release ([8af869d](https://github.com/amtins/super-duper-ci/commit/8af869d844bf21e5beded4bc3aeadb5c85b248b4))
 
