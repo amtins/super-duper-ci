@@ -25,6 +25,8 @@ class CustomButton extends videojs.getComponent('Button') {
   /**
    * Build css class.
    *
+   * @override
+   *
    * @returns {String}
    */
   buildCSSClass() {
