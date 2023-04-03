@@ -1,3 +1,10 @@
+# [2.1.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.0.0...v2.1.0-pre-release.1) (2023-04-03)
+
+
+### Features
+
+* **custom-button:** handle click ([c1524df](https://github.com/amtins/super-duper-ci/commit/c1524df5ef958d699a84c9a8354bddefea72a2ce))
+
 # [2.0.0](https://github.com/amtins/super-duper-ci/compare/v1.4.0...v2.0.0) (2023-04-03)
 
 
