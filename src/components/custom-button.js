@@ -10,6 +10,9 @@ import { version } from '../../package.json';
  * @extends Button
  */
 class CustomButton extends videojs.getComponent('Button') {
+  /**
+   * @override
+   */
   handleClick() {
     // eslint-disable-next-line
     console.log({
