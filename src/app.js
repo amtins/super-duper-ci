@@ -4,6 +4,7 @@ import getAppVersion from './version.js';
 import './components/custom-button.js';
 
 window.videojs = videojs;
+// init player
 window.player = videojs('player', {
   controls: true,
   customButton: true,

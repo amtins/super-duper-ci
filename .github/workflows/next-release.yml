@@ -2,7 +2,7 @@ name: Next Release
 on:
   push:
     branches:
-      - next
+      - pre-release
 jobs:
   linter-test:
     name: Run eslint and unit tests
