@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/amtins/super-duper-ci/compare/v2.0.0...v2.1.0) (2023-04-04)
+
+
+### Features
+
+* **custom-button:** comment handle click ([47f899e](https://github.com/amtins/super-duper-ci/commit/47f899e1c47103df69eb807c2fc0fa91f0f7031b))
+* **custom-button:** comment handle click ([#26](https://github.com/amtins/super-duper-ci/issues/26)) ([908947d](https://github.com/amtins/super-duper-ci/commit/908947d29d17cd6f7e1b5091dcdfd6348c7ed8dc))
+* **custom-button:** handle click ([1dbe862](https://github.com/amtins/super-duper-ci/commit/1dbe86242fcf2cbdad23b740311483df59d6f20e))
+
 # [2.1.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.0.0...v2.1.0-pre-release.1) (2023-04-04)
 
 
