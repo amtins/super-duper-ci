@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/amtins/super-duper-ci/compare/v2.3.0...v2.4.0) (2023-04-04)
+
+
+### Features
+
+* **semantic-release:** set npm publish to false ([d59bf2b](https://github.com/amtins/super-duper-ci/commit/d59bf2bb07da3f9676d3553c90c2c6ab7613baa3))
+
 # [2.3.0](https://github.com/amtins/super-duper-ci/compare/v2.2.1...v2.3.0) (2023-04-04)
 
 
