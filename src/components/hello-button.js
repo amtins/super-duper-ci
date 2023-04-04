@@ -16,7 +16,7 @@ class HelloButton extends videojs.getComponent('Button') {
    */
   handleClick() {
     // eslint-disable-next-line
-    console.log('typo Hello');
+    console.log('Hello');
   }
 
   /**
