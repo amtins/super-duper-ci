@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/amtins/super-duper-ci/compare/v2.2.1...v2.3.0) (2023-04-04)
+
+
+### Features
+
+* **yes:** add button ([e47163a](https://github.com/amtins/super-duper-ci/commit/e47163a1fc4f41a25df5cfd8774452a9d46c8d98))
+
 # [2.3.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.2.1...v2.3.0-pre-release.1) (2023-04-04)
 
 
