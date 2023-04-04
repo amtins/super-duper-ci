@@ -1,3 +1,11 @@
+## [2.2.1](https://github.com/amtins/super-duper-ci/compare/v2.2.0...v2.2.1) (2023-04-04)
+
+
+### Bug Fixes
+
+* **#32:** release button fix typo ([9fa5754](https://github.com/amtins/super-duper-ci/commit/9fa575414b8a3e35f578dd10d6057f307d65f9ba))
+* **hello:** remove typo ([92b9b68](https://github.com/amtins/super-duper-ci/commit/92b9b68deb8aaaa1de65e472076dcb5848d777f4)), closes [#30](https://github.com/amtins/super-duper-ci/issues/30)
+
 ## [2.2.1-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.2.0...v2.2.1-pre-release.1) (2023-04-04)
 
 
