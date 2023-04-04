@@ -1,6 +1,6 @@
 {
   "name": "@amtins/super-duper-ci",
-  "version": "2.2.0",
+  "version": "2.2.1-pre-release.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/super-duper-ci.git"
@@ -41,6 +41,7 @@
     "eslint": "^8.37.0",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "parcel": "^2.8.3",
     "semantic-release": "^21.0.0"
   },
