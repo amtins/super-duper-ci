@@ -11,7 +11,7 @@ import { version } from '../../package.json';
  */
 class CustomButton extends videojs.getComponent('Button') {
   /**
-   * Handle click.
+   * Handle click shows the app and videojs version.
    *
    * @override
    */
