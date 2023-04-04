@@ -1,3 +1,5 @@
+[![coverage](https://github.com/amtins/super-duper-ci/actions/workflows/coverage.yml/badge.svg?branch=main)](https://github.com/amtins/super-duper-ci/actions/workflows/coverage.yml)
+
 ### Initialize npm project
 
   ```bash
