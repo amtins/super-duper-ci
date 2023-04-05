@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/amtins/super-duper-ci/compare/v2.5.0...v2.5.1) (2023-04-05)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **semantic-release:** npm publish ([83d13b7](https://github.com/amtins/super-duper-ci/commit/83d13b704bffa940835c79850c69ac8bd18d8058))
+
 ## [2.5.0](https://github.com/amtins/super-duper-ci/compare/v2.4.1...v2.5.0) (2023-04-05)
 
 
