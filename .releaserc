@@ -6,7 +6,7 @@
     },
     {
       "name": "pre-release",
-      "prerelease": "${name.replace(/^pre-release/g, '')}"
+      "channel": "next"
     }
   ],
   "plugins": [
