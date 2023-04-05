@@ -14,6 +14,6 @@ jobs:
           always-auth: true
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
-      - run: npm dist-tag add --tag=next latest
+      - run: npm dist-tag add --tag=latest
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
