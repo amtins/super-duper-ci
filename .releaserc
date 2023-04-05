@@ -15,7 +15,11 @@
     [
       "@semantic-release/release-notes-generator",
       {
+        "preset": "conventionalcommits",
         "header": "Super Duper CI changes",
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+        },
         "presetConfig": {
           "types": [
             {
