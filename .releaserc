@@ -7,7 +7,7 @@
     {
       "name": "pre-release",
       "channel": "next",
-      "prerelease": true
+      "prerelease": "${name.replace(/^pre-release/g, \"\")}"
     }
   ],
   "plugins": [
