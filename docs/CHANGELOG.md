@@ -1,3 +1,15 @@
+# [2.4.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.3.0...v2.4.0-pre-release.1) (2023-04-05)
+
+
+### Bug Fixes
+
+* **semantic-release:** modify release note section ([2f10936](https://github.com/amtins/super-duper-ci/commit/2f109367e6c1ea575742f7fd449bcc4650754d95))
+
+
+### Features
+
+* **semantic-release:** set npm publish to false ([0c0a75d](https://github.com/amtins/super-duper-ci/commit/0c0a75d1cb8836733e4a1665bbe5c69c81546579))
+
 # [2.4.0](https://github.com/amtins/super-duper-ci/compare/v2.3.0...v2.4.0) (2023-04-04)
 
 
