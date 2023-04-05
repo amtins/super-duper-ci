@@ -18,10 +18,19 @@
         "preset": "conventionalcommits",
         "header": "Super Duper CI changes",
         "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING"
+          ]
         },
         "presetConfig": {
           "types": [
+            {
+              "type": "breaking",
+              "section": "❗ Breaking Changes",
+              "hidden": false
+            },
             {
               "type": "feat",
               "section": "🚀 New Features",
@@ -72,6 +81,7 @@
         "writerOpts": {
           "groupBy": "type",
           "commitGroupsSort": [
+            "breaking",
             "feat",
             "fix",
             "docs",
