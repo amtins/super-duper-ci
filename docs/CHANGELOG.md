@@ -1,3 +1,27 @@
+## [2.5.0](https://github.com/amtins/super-duper-ci/compare/v2.4.1...v2.5.0) (2023-04-05)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **semantic-release:** bring back the regex ([6a9322d](https://github.com/amtins/super-duper-ci/commit/6a9322dc0ba270bbf1c81eb12df6dfe81455061d))
+* **semantic-release:** prerelease property add regex again ([6209590](https://github.com/amtins/super-duper-ci/commit/62095908092b0d7b63ab10cfeab697dcb258a9d2))
+* **semantic-release:** prerelease property remove regex ([b1089e4](https://github.com/amtins/super-duper-ci/commit/b1089e4c3a5bf23ee9184d5bb30acd644ff751f2))
+* **semantic-release:** prerelease property validity ([d06ea07](https://github.com/amtins/super-duper-ci/commit/d06ea078f9fdfe4a1bdc44e8ddacc8641566087b))
+* **semantic-release:** properties change ([b6de946](https://github.com/amtins/super-duper-ci/commit/b6de94652840bc2df8d633c0651c7e5b973328fc))
+* **semantic-release:** set the channel to next ([7a7ef29](https://github.com/amtins/super-duper-ci/commit/7a7ef29cd3f008800a90e28860069d02ba69f7fa))
+
+
+### 🧹 Chore
+
+* **release:** 2.5.0-pre-release.1 [skip ci] ([ca44d41](https://github.com/amtins/super-duper-ci/commit/ca44d4100b0e2a1d03d35cf78495c2ededaf9b97))
+* **release:** 2.5.0-pre-release.1 [skip ci] ([d11f4f4](https://github.com/amtins/super-duper-ci/commit/d11f4f47145a4bd83523c99f33f3e3ada202cd16))
+
+
+### 🚀 New Features
+
+* **semantic-release:** add a breaking change section to the release note ([1f753bf](https://github.com/amtins/super-duper-ci/commit/1f753bf0fe49b8f4abbd6d903722d8862cf54594))
+* **semantic-release:** try to remove pre-release from version name ([e2b8a27](https://github.com/amtins/super-duper-ci/commit/e2b8a2783f52ae1d4aa23a84c9ab247721ee4e67))
+
 ## [2.5.0-pre-release.1](https://github.com/amtins/super-duper-ci/compare/v2.4.1...v2.5.0-pre-release.1) (2023-04-05)
 
 
