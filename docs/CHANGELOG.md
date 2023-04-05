@@ -1,3 +1,11 @@
+## [2.4.1](https://github.com/amtins/super-duper-ci/compare/v2.4.0...v2.4.1) (2023-04-05)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **semantic-release:** modify default preset and parser options ([886a2ca](https://github.com/amtins/super-duper-ci/commit/886a2cade69b3001b6664a92182aed9ce02fa935))
+* **semantic-release:** modify release note section ([d28dc56](https://github.com/amtins/super-duper-ci/commit/d28dc56d9caa0026048ca4cc8cb1ea933388763e))
+
 # [2.4.0](https://github.com/amtins/super-duper-ci/compare/v2.3.0...v2.4.0) (2023-04-04)
 
 
