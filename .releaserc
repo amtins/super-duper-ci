@@ -20,12 +20,12 @@
           "types": [
             {
               "type": "feat",
-              "section": "🚀 Features",
+              "section": "🚀 New Features",
               "hidden": false
             },
             {
               "type": "fix",
-              "section": "🐛 Bug Fixes",
+              "section": "🐛 Enhancements and Bug Fixes",
               "hidden": false
             },
             {
