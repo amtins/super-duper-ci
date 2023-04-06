@@ -1,3 +1,10 @@
+## [2.5.8](https://github.com/amtins/super-duper-ci/compare/v2.5.7...v2.5.8) (2023-04-06)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** next version ([bcc5a7b](https://github.com/amtins/super-duper-ci/commit/bcc5a7b06a5320588e738ff456e9a797afb52484))
+
 ## [2.5.7](https://github.com/amtins/super-duper-ci/compare/v2.5.6...v2.5.7) (2023-04-06)
 
 
