@@ -1,3 +1,10 @@
+## [2.5.3](https://github.com/amtins/super-duper-ci/compare/v2.5.2...v2.5.3) (2023-04-06)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add dist-tag ([7cdb1be](https://github.com/amtins/super-duper-ci/commit/7cdb1be5e3cd9e92e8bdf4bffd13a622e3a69192))
+
 ## [2.5.2](https://github.com/amtins/super-duper-ci/compare/v2.5.1...v2.5.2) (2023-04-06)
 
 
