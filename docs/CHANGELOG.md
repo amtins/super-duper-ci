@@ -1,3 +1,10 @@
+## [2.5.6](https://github.com/amtins/super-duper-ci/compare/v2.5.5...v2.5.6) (2023-04-06)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add secrects ([254e073](https://github.com/amtins/super-duper-ci/commit/254e0738a7a8491f2d73d56e0166185b347178b0))
+
 ## [2.5.5](https://github.com/amtins/super-duper-ci/compare/v2.5.4...v2.5.5) (2023-04-06)
 
 
