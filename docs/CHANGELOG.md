@@ -1,3 +1,10 @@
+## [2.5.4](https://github.com/amtins/super-duper-ci/compare/v2.5.3...v2.5.4) (2023-04-06)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** remove scope ([cb2a4ad](https://github.com/amtins/super-duper-ci/commit/cb2a4ad19c196601fd6f55100e82527f16cd8051))
+
 ## [2.5.3](https://github.com/amtins/super-duper-ci/compare/v2.5.2...v2.5.3) (2023-04-06)
 
 
