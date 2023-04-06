@@ -3,6 +3,50 @@
 
 ### 🚀 New Features
 
+* **app:** show version ([6e9bbc0](https://github.com/amtins/super-duper-ci/commit/6e9bbc047cde6e18d5a1149bdd6856e9e6abc661))
+* **github-actions:** list npm packages ([6c9b3dd](https://github.com/amtins/super-duper-ci/commit/6c9b3dd87d3aa92bf120c54b9855402b22f42802))
+* **semantic-release:** add a breaking change section to the release note ([85aeece](https://github.com/amtins/super-duper-ci/commit/85aeece713332eddc0cd49871524dd6322b1b2ab))
+* **semantic-release:** try to remove pre-release from version name ([23c9bec](https://github.com/amtins/super-duper-ci/commit/23c9becd82c22691e0f7ccb25f0f4559ac0c8bdc))
+
+
+### 🧹 Chore
+
+* **github-actions:** npm publish next ([b42cd6f](https://github.com/amtins/super-duper-ci/commit/b42cd6f483ec09e721be9d3d7fca29218dc100ca))
+* **release:** 2.5.0 [skip ci] ([1d345de](https://github.com/amtins/super-duper-ci/commit/1d345dee722dbd2f9fa7080ed82067c820581aaa))
+* **release:** 2.5.0 [skip ci] ([4fad56f](https://github.com/amtins/super-duper-ci/commit/4fad56fd87e9ae043771dbcdea9cdf918dca46cb))
+* **release:** 2.5.0 [skip ci] ([0247837](https://github.com/amtins/super-duper-ci/commit/0247837535d971cc5ebb8a998ee33e7fa4a8371c))
+* **release:** 2.5.0-pre-release.1 [skip ci] ([497818b](https://github.com/amtins/super-duper-ci/commit/497818b81a637ec81bb5649c5c92566f5217c5e4))
+* **release:** 2.5.0-pre-release.1 [skip ci] ([d0b17ff](https://github.com/amtins/super-duper-ci/commit/d0b17ff56a22f3887de53dd8cd3195084bcc4e79))
+* **release:** 2.5.1 [skip ci] ([f60b797](https://github.com/amtins/super-duper-ci/commit/f60b797677371f21aa71316a82c63ea069843ae4))
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** --tag stable ([67a7ae2](https://github.com/amtins/super-duper-ci/commit/67a7ae2045e05ec77196fa21a84f2a396f07f922))
+* **github-actions:** --tag=latest ([834d4c6](https://github.com/amtins/super-duper-ci/commit/834d4c63215a2ebff289388b2bbac653f847f107))
+* **github-actions:** --tag=next latest ([342edf6](https://github.com/amtins/super-duper-ci/commit/342edf6e2c7296db6fc8e89201c9738723fc4507))
+* **github-actions:** --tag=next stable ([9462ccb](https://github.com/amtins/super-duper-ci/commit/9462ccb5d61543bc788f2aa004665fde1580fd5e))
+* **github-actions:** auth and update node version ([02eba1e](https://github.com/amtins/super-duper-ci/commit/02eba1ef80fac897add9125a30f9a34180b71d86))
+* **github-actions:** no scope ([ac96f31](https://github.com/amtins/super-duper-ci/commit/ac96f31d493b400553845c02eb096e9f9504fe09))
+* **github-actions:** no scope latest to stable ([c7dd703](https://github.com/amtins/super-duper-ci/commit/c7dd7038b1e8ce9a3bc4dc8d45bd794de0d09c38))
+* **github-actions:** publish latest ([4a20d3f](https://github.com/amtins/super-duper-ci/commit/4a20d3f9792249ecc7fb46a39360c0b796538212))
+* **github-actions:** publish stable ([754bf44](https://github.com/amtins/super-duper-ci/commit/754bf449ab8b219522991b2e9f5b4626f531bea1))
+* **github-actions:** publish tag ([b302af4](https://github.com/amtins/super-duper-ci/commit/b302af449eff0e5761beda8023473baa4c70be76))
+* **github-actions:** publish tag next ([2f0b4c0](https://github.com/amtins/super-duper-ci/commit/2f0b4c0b3807b013325014bdb3561a3290a8aa09))
+* **github-actions:** scope latest to stable ([ca360d5](https://github.com/amtins/super-duper-ci/commit/ca360d5b792af7115c54c3fd292d76f1f8bf2b59))
+* **semantic-release:** bring back the regex ([8306882](https://github.com/amtins/super-duper-ci/commit/830688274e768896f80b3f9287bd3b6e4b95ffe1))
+* **semantic-release:** npm publish ([3b084da](https://github.com/amtins/super-duper-ci/commit/3b084da7e3d0a8f5281d0f3908059b322ae8a16c))
+* **semantic-release:** prerelease property add regex again ([4b70903](https://github.com/amtins/super-duper-ci/commit/4b70903eb409abdf527887678c7384710bc1c4a8))
+* **semantic-release:** prerelease property remove regex ([b9c55b3](https://github.com/amtins/super-duper-ci/commit/b9c55b33a052f5f98276214fbbf945fdc37b59de))
+* **semantic-release:** prerelease property validity ([ed37488](https://github.com/amtins/super-duper-ci/commit/ed37488755763d4cf83e6ca4f56d907280a572ec))
+* **semantic-release:** properties change ([6bcca0f](https://github.com/amtins/super-duper-ci/commit/6bcca0f5765e26d19a63b1fc8a79a95a46253a51))
+* **semantic-release:** set the channel to next ([bacfa9a](https://github.com/amtins/super-duper-ci/commit/bacfa9acf2b51b725a08f67d27805109472e8770))
+
+## [2.5.0](https://github.com/amtins/super-duper-ci/compare/v2.4.1...v2.5.0) (2023-04-06)
+
+
+### 🚀 New Features
+
 * **app:** show version ([4ec3d44](https://github.com/amtins/super-duper-ci/commit/4ec3d440e4caee2dc44be7fe9d8a8d9de81dfbe6))
 * **semantic-release:** add a breaking change section to the release note ([85aeece](https://github.com/amtins/super-duper-ci/commit/85aeece713332eddc0cd49871524dd6322b1b2ab))
 * **semantic-release:** try to remove pre-release from version name ([23c9bec](https://github.com/amtins/super-duper-ci/commit/23c9becd82c22691e0f7ccb25f0f4559ac0c8bdc))
