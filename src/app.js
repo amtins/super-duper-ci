@@ -17,4 +17,5 @@ window.player = videojs('player', {
 });
 
 // show app version
+// text content value
 document.querySelector('.version').textContent = getAppVersion();
