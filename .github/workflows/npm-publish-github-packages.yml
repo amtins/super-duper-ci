@@ -16,6 +16,8 @@ jobs:
           scope: '@amtins'
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
-          npm dist-tag add latest
+          npm dist-tag add @amtins/super-duper-ci@next latest
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
+          NODE_AUTH_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
