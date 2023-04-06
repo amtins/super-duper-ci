@@ -1,3 +1,10 @@
+## [2.5.2](https://github.com/amtins/super-duper-ci/compare/v2.5.1...v2.5.2) (2023-04-06)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **app:** remove comment ([b415416](https://github.com/amtins/super-duper-ci/commit/b415416854b2975f35ee9665782aa7f4848066cb))
+
 ## [2.5.1](https://github.com/amtins/super-duper-ci/compare/v2.5.0...v2.5.1) (2023-04-06)
 
 
