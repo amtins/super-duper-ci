@@ -1,3 +1,10 @@
+## [2.8.2](https://github.com/amtins/super-duper-ci/compare/v2.8.1...v2.8.2) (2023-04-07)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** clean tag ([e88e20b](https://github.com/amtins/super-duper-ci/commit/e88e20bb431677e472f7b95ffdf085996710ce83))
+
 ## [2.8.1](https://github.com/amtins/super-duper-ci/compare/v2.8.0...v2.8.1) (2023-04-07)
 
 
