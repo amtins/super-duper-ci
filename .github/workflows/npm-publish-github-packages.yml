@@ -35,4 +35,5 @@ jobs:
           npm dist-tag add @amtins/super-duper-ci@${{ env.TAGS }} latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TAGS: ${{ inputs.tags }}
