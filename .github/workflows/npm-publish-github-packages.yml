@@ -2,12 +2,24 @@ name: Publish Package
 
 on:
   workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Tag to release'
+        required: false
+        type: boolean
 
 jobs:
   build:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -16,8 +28,7 @@ jobs:
           scope: '@amtins'
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
-          npm dist-tag add @amtins/super-duper-ci@next latest
+          npm dist-tag add @amtins/super-duper-ci@$TAGS latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
-          NODE_AUTH_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
+          TAGS: ${{ inputs.tags }}
