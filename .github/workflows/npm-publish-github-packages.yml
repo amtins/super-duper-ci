@@ -29,8 +29,9 @@ jobs:
       - run: |
           echo ${{ github.ref_type }}
           echo ${{ github.ref_name }}
+          CLEAN_TAG=$(echo ${{ github.ref_name }} | sed 's/v//')
           npm dist-tag ls @amtins/super-duper-ci
-          npm dist-tag add @amtins/super-duper-ci@$TAGS latest
+          npm dist-tag add @amtins/super-duper-ci@${{ env.TAGS }} latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAGS: ${{ inputs.tags }}
