@@ -27,6 +27,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
       - run: |
+          echo ${{ github.ref_type }}
+          echo ${{ github.ref_name }}
           npm dist-tag ls @amtins/super-duper-ci
           npm dist-tag add @amtins/super-duper-ci@$TAGS latest
         env:
