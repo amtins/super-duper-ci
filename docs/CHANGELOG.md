@@ -1,3 +1,11 @@
+## [2.8.0](https://github.com/amtins/super-duper-ci/compare/v2.7.0...v2.8.0) (2023-04-07)
+
+
+### 🚀 New Features
+
+* **github-actions:** add package write permission ([b67d3d7](https://github.com/amtins/super-duper-ci/commit/b67d3d7b9a18ce0b3f963e335b2f189873056d82))
+* **github-actions:** clean tag ([9d5d7a9](https://github.com/amtins/super-duper-ci/commit/9d5d7a96b990670b38afaf301948ee7d78383b5e))
+
 ## [2.7.0](https://github.com/amtins/super-duper-ci/compare/v2.6.0...v2.7.0) (2023-04-07)
 
 
