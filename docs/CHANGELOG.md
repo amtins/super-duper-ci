@@ -1,3 +1,10 @@
+## [2.8.1](https://github.com/amtins/super-duper-ci/compare/v2.8.0...v2.8.1) (2023-04-07)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** node auth token ([1090c3e](https://github.com/amtins/super-duper-ci/commit/1090c3e58cc6e9af1ba8c51695ef9e5ecdbf3554))
+
 ## [2.8.0](https://github.com/amtins/super-duper-ci/compare/v2.7.0...v2.8.0) (2023-04-07)
 
 
