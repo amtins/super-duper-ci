@@ -1,3 +1,10 @@
+## [2.7.0](https://github.com/amtins/super-duper-ci/compare/v2.6.0...v2.7.0) (2023-04-07)
+
+
+### 🚀 New Features
+
+* **github-actions:** print ref type and name ([4698da5](https://github.com/amtins/super-duper-ci/commit/4698da5dcc3bfae3744a018d7a7a13d6dd85a8a1))
+
 ## [2.6.0](https://github.com/amtins/super-duper-ci/compare/v2.5.8...v2.6.0) (2023-04-07)
 
 
