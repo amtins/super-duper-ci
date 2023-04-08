@@ -51,7 +51,7 @@ jobs:
 
       - name: Tag does not exist
         env:
-          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
+          AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions --json)
         if: failure()
         run: |
           echo -e "FAIL to deploy tag: ${{ inputs.release-tag }}\n${{ env.AVAILABLE_VERSIONS }}"
