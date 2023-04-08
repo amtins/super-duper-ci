@@ -20,7 +20,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/github-script@v6
 
       - name: Setup node environment
         uses: actions/setup-node@v3
@@ -44,14 +43,16 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Update release note
+        uses: actions/github-script@v6
         if: success()
-        run: |
-          octokit.rest.repos.updateRelease({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            release_id: ${{ inputs.release-tag }},
-            make_latest: true
-          })
+        with:
+          script: |
+            github.rest.repos.updateRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: inputs.release-tag,
+              make_latest: true
+            })
 
       - name: Tag does not exist
         env:
@@ -61,4 +62,3 @@ jobs:
         run: |
           echo -e "FAIL to deploy tag ${{ inputs.release-tag }} because it doesn't exist"
           echo -e "Available tags list:\n${{ env.AVAILABLE_VERSIONS }}"
-
