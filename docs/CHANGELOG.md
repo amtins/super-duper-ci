@@ -1,3 +1,10 @@
+## [2.9.0](https://github.com/amtins/super-duper-ci/compare/v2.8.2...v2.9.0) (2023-04-08)
+
+
+### 🚀 New Features
+
+* **github-actions:** release tag ([b6f4cff](https://github.com/amtins/super-duper-ci/commit/b6f4cffa3ade3f1bfbd8c633fcdbcaa111e3d758))
+
 ## [2.8.2](https://github.com/amtins/super-duper-ci/compare/v2.8.1...v2.8.2) (2023-04-07)
 
 
