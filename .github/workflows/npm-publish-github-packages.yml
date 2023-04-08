@@ -31,8 +31,9 @@ jobs:
 
       - name: Check if tag exists
         env:
-          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
-        if: ${{ !contains(env.AVAILABLE_VERSIONS, inputs.release-tag) }}
+          AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions --json)
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        if: ${{ !contains(fromJSON(env.AVAILABLE_VERSIONS), inputs.release-tag) }}
         run: exit 1;
 
       - name: Release tag
@@ -52,6 +53,7 @@ jobs:
       - name: Tag does not exist
         env:
           AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions --json)
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         if: failure()
         run: |
           echo -e "FAIL to deploy tag: ${{ inputs.release-tag }}\n${{ env.AVAILABLE_VERSIONS }}"
