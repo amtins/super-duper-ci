@@ -1,3 +1,10 @@
+## [2.11.0](https://github.com/amtins/super-duper-ci/compare/v2.10.0...v2.11.0) (2023-04-08)
+
+
+### 🚀 New Features
+
+* **github-actions:** set release note to latest ([7caeda2](https://github.com/amtins/super-duper-ci/commit/7caeda21def61df987a9ba5d3c45a9c0b18ac22e))
+
 ## [2.10.0](https://github.com/amtins/super-duper-ci/compare/v2.9.11...v2.10.0) (2023-04-08)
 
 
