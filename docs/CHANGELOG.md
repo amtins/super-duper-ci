@@ -1,3 +1,10 @@
+## [2.12.0](https://github.com/amtins/super-duper-ci/compare/v2.11.0...v2.12.0) (2023-04-08)
+
+
+### 🚀 New Features
+
+* **github-actions:** release tag env variable ([7d02d2d](https://github.com/amtins/super-duper-ci/commit/7d02d2da4ab0c1b0bf20acc0b669ab83c5f9c33d))
+
 ## [2.11.0](https://github.com/amtins/super-duper-ci/compare/v2.10.0...v2.11.0) (2023-04-08)
 
 
