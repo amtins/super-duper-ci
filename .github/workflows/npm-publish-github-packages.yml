@@ -50,6 +50,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Tag does not exist
+        env:
+          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
         if: failure()
         run: |
           echo -e "FAIL to deploy tag: ${{ inputs.release-tag }}\n${{ env.AVAILABLE_VERSIONS }}"
