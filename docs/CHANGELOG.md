@@ -1,3 +1,10 @@
+## [2.9.11](https://github.com/amtins/super-duper-ci/compare/v2.9.10...v2.9.11) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** update fail message ([1203584](https://github.com/amtins/super-duper-ci/commit/1203584e31b0e0a481ab249560c85c068ca40fdc))
+
 ## [2.9.10](https://github.com/amtins/super-duper-ci/compare/v2.9.9...v2.9.10) (2023-04-08)
 
 
