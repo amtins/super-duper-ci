@@ -31,7 +31,7 @@ jobs:
 
       - name: Check if tag exists
         env:
-          AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions --json)
+          AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions --parsable)
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         if: ${{ !contains(env.AVAILABLE_VERSIONS, inputs.release-tag) }}
         run: exit 1;
