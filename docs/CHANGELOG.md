@@ -1,3 +1,10 @@
+## [2.9.3](https://github.com/amtins/super-duper-ci/compare/v2.9.2...v2.9.3) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** input property ([0184439](https://github.com/amtins/super-duper-ci/commit/01844395265065bc7fe6c54b28eef78f1fff7fba))
+
 ## [2.9.2](https://github.com/amtins/super-duper-ci/compare/v2.9.1...v2.9.2) (2023-04-08)
 
 
