@@ -1,3 +1,10 @@
+## [2.13.3](https://github.com/amtins/super-duper-ci/compare/v2.13.2...v2.13.3) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** v from tag ([b621008](https://github.com/amtins/super-duper-ci/commit/b62100804f0f8379ac669f66bbe8cc6d0935acb5))
+
 ## [2.13.2](https://github.com/amtins/super-duper-ci/compare/v2.13.1...v2.13.2) (2023-04-08)
 
 
