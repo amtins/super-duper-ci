@@ -1,3 +1,11 @@
+## [2.9.8](https://github.com/amtins/super-duper-ci/compare/v2.9.7...v2.9.8) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** to json ([ce7e36d](https://github.com/amtins/super-duper-ci/commit/ce7e36da4afe17d2930bd21b289c3f3f23a86e34))
+* **github-actions:** to json versions ([7064f89](https://github.com/amtins/super-duper-ci/commit/7064f89381476a318aa6272c2f321f485f7bc5b7))
+
 ## [2.9.7](https://github.com/amtins/super-duper-ci/compare/v2.9.6...v2.9.7) (2023-04-08)
 
 
