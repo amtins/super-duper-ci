@@ -1,3 +1,10 @@
+## [2.9.7](https://github.com/amtins/super-duper-ci/compare/v2.9.6...v2.9.7) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** parseable verions ([1d19a33](https://github.com/amtins/super-duper-ci/commit/1d19a33b7dc766e9c92dff9aeaf0c6906efa8cbd))
+
 ## [2.9.6](https://github.com/amtins/super-duper-ci/compare/v2.9.5...v2.9.6) (2023-04-08)
 
 
