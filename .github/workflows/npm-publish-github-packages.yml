@@ -3,10 +3,10 @@ name: Publish Package
 on:
   workflow_dispatch:
     inputs:
-      tags:
+      tag:
         description: 'Tag to release'
-        required: false
-        type: boolean
+        required: true
+        type: string
 
 jobs:
   build:
@@ -21,19 +21,34 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Setup node environment
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           always-auth: true
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
-      - run: |
+
+      - name: Check if tag exists
+        if: ${{!contains(fromJSON(env.AVAILABLE_VERSIONS), inputs.tag)}}
+        run: exit 1;
+
+      - name: Release tag
+        if: success()
+        run: |
           echo ${{ github.ref_type }}
           echo ${{ github.ref_name }}
-          npm dist-tag ls @amtins/super-duper-ci
-          npm dist-tag add @amtins/super-duper-ci@${{ env.CLEAN_TAG }} latest
+          echo "the current version is: $(npm view @amtins/super-duper-ci version)"
+          echo "the next version is: $(npm view @amtins/super-duper-ci dist-tags.next)"
+          echo "All versions available: $(npm view @amtins/super-duper-ci versions --json)"
+          echo -e "Dist tags:\n$(npm dist-tag ls @amtins/super-duper-ci)"
+          npm dist-tag add @amtins/super-duper-ci@${{ inputs.tag }} latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          TAGS: ${{ inputs.tags }}
-          CLEAN_TAG: $(echo ${{ github.ref_name }} | sed 's/v//')
+          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
+
+      - name: Tag does not exist
+        if: failure()
+        run: echo "FAIL to deploy tag"
+
