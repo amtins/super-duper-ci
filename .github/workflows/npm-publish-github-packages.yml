@@ -56,7 +56,7 @@ jobs:
             const { id } = await github.rest.repos.getReleaseByTag({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              tag: `v${RELEASE_TAG}`
+              tag: RELEASE_TAG
             })
 
             console.log('RELEASE ID', id)
