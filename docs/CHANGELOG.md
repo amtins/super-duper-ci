@@ -1,3 +1,15 @@
+## [2.9.6](https://github.com/amtins/super-duper-ci/compare/v2.9.5...v2.9.6) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** log failed release-tag ([c5ce70e](https://github.com/amtins/super-duper-ci/commit/c5ce70eedff56018da8d5dc91738baea404decbe))
+* **github-actions:** log version list ([1abd486](https://github.com/amtins/super-duper-ci/commit/1abd4868d92c17901937fda1c2c0b2cc47760c04))
+* **github-actions:** log version list? ([63de93e](https://github.com/amtins/super-duper-ci/commit/63de93eb13bf8513cd8fe308f7f4dd119ed55b1e))
+* **github-actions:** node auth ([78b799b](https://github.com/amtins/super-duper-ci/commit/78b799b72147e5befca3d5b0665cbf3dc2d9669c))
+* **github-actions:** remove fromJSON again ([419fcc5](https://github.com/amtins/super-duper-ci/commit/419fcc57e868bc0b505eaaee82ba206836493a5b))
+* **github-actions:** version list ([8c6abaa](https://github.com/amtins/super-duper-ci/commit/8c6abaa81b2b949c067988e20bf7f35210f2d338))
+
 ## [2.9.5](https://github.com/amtins/super-duper-ci/compare/v2.9.4...v2.9.5) (2023-04-08)
 
 
