@@ -1,3 +1,11 @@
+## [2.9.4](https://github.com/amtins/super-duper-ci/compare/v2.9.3...v2.9.4) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** condition env property ([007d7ca](https://github.com/amtins/super-duper-ci/commit/007d7ca3ac588a3555460a63dda5441a70c114b5))
+* **github-actions:** env property ([4a30025](https://github.com/amtins/super-duper-ci/commit/4a300254b7b7398fd4f743dd1b3c92373373a305))
+
 ## [2.9.3](https://github.com/amtins/super-duper-ci/compare/v2.9.2...v2.9.3) (2023-04-08)
 
 
