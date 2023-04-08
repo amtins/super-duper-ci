@@ -30,6 +30,8 @@ jobs:
           scope: '@amtins'
 
       - name: Check if tag exists
+        env:
+          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
         if: ${{!contains(fromJSON(env.AVAILABLE_VERSIONS), inputs.tag)}}
         run: exit 1;
 
