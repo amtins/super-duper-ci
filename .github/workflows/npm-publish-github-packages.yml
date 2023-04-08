@@ -32,7 +32,7 @@ jobs:
       - name: Check if tag exists
         env:
           AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
-        if: ${{ !contains(fromJSON(env.AVAILABLE_VERSIONS), inputs.release-tag) }}
+        if: ${{ !contains(env.AVAILABLE_VERSIONS, inputs.release-tag) }}
         run: exit 1;
 
       - name: Release tag
