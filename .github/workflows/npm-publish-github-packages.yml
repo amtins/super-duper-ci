@@ -51,10 +51,16 @@ jobs:
           script: |
             const { RELEASE_TAG } = process.env
 
+            const { id } = await github.rest.repos.getReleaseByTag({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag: `v${RELEASE_TAG}`
+            })
+
             github.rest.repos.updateRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              release_id: `tag/${RELEASE_TAG}`,
+              release_id: id,
               make_latest: true
             })
 
