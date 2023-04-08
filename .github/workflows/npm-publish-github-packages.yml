@@ -51,5 +51,6 @@ jobs:
 
       - name: Tag does not exist
         if: failure()
-        run: echo "FAIL to deploy tag"
+        run: |
+          echo "FAIL to deploy tag: ${{ inputs.release-tag }}"
 
