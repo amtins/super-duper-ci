@@ -29,15 +29,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
 
-      - name: Check if tag exists
-        env:
-          AVAILABLE_VERSIONS: $(npm view @amtins/super-duper-ci versions)
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        if: ${{ !contains(toJSON(env.AVAILABLE_VERSIONS), inputs.release-tag) }}
-        run: exit 1;
-
       - name: Release tag
-        if: success()
         run: |
           echo ${{ github.ref_type }}
           echo ${{ github.ref_name }}
@@ -57,8 +49,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         if: failure()
         run: |
-          echo -e "Contains tag: ${{ !contains(env.AVAILABLE_VERSIONS, inputs.release-tag) }}"
-          echo -e "Contains tag toJSON: ${{ !contains(toJSON(env.AVAILABLE_VERSIONS), inputs.release-tag) }}"
-          echo -e "Contains tag fromJSON: ${{ !contains(fromJSON(env.AVAILABLE_VERSIONS), inputs.release-tag) }}"
           echo -e "FAIL to deploy tag: ${{ inputs.release-tag }}\n${{ env.AVAILABLE_VERSIONS }}\n${{ toJSON(env.AVAILABLE_VERSIONS_JSON) }}"
 
