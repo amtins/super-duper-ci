@@ -48,7 +48,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          AVAILABLE_VERSIONS: npm view @amtins/super-duper-ci versions --json
 
       - name: Tag does not exist
         if: failure()
