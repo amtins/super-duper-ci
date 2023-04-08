@@ -1,3 +1,10 @@
+## [2.9.10](https://github.com/amtins/super-duper-ci/compare/v2.9.9...v2.9.10) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** remove check tag ([ce07062](https://github.com/amtins/super-duper-ci/commit/ce07062f7a2916181bcc9c55934b5b2dcdb469f0))
+
 ## [2.9.9](https://github.com/amtins/super-duper-ci/compare/v2.9.8...v2.9.9) (2023-04-08)
 
 
