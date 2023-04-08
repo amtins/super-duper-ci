@@ -1,3 +1,10 @@
+## [2.9.9](https://github.com/amtins/super-duper-ci/compare/v2.9.8...v2.9.9) (2023-04-08)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** log condition ([72ba5c9](https://github.com/amtins/super-duper-ci/commit/72ba5c9b01b340ccd75f11d13bf44ae28b4784d0))
+
 ## [2.9.8](https://github.com/amtins/super-duper-ci/compare/v2.9.7...v2.9.8) (2023-04-08)
 
 
