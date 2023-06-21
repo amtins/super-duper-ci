@@ -1,3 +1,10 @@
+## [2.14.0](https://github.com/amtins/super-duper-ci/compare/v2.13.4...v2.14.0) (2023-06-21)
+
+
+### 🚀 New Features
+
+* app version from package.json ([566700f](https://github.com/amtins/super-duper-ci/commit/566700f6ab0cbc207558160625ddefe50a6848e9))
+
 ## [2.13.4](https://github.com/amtins/super-duper-ci/compare/v2.13.3...v2.13.4) (2023-06-21)
 
 
