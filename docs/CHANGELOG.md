@@ -1,3 +1,10 @@
+## [2.15.0](https://github.com/amtins/super-duper-ci/compare/v2.14.0...v2.15.0) (2023-06-21)
+
+
+### 🚀 New Features
+
+* main channel next ([8f991f4](https://github.com/amtins/super-duper-ci/commit/8f991f4d9611a5f63e8b28b9e6b0daa53cfccde5))
+
 ## [2.14.0](https://github.com/amtins/super-duper-ci/compare/v2.13.4...v2.14.0) (2023-06-21)
 
 
