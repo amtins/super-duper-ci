@@ -2,7 +2,8 @@
   "branches": [
     {
       "name": "main",
-      "channel": "next"
+      "channel": "next",
+      "prerelease": true
     },
     {
       "name": "pre-release",
