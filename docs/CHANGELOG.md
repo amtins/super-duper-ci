@@ -1,3 +1,15 @@
+## [2.13.4](https://github.com/amtins/super-duper-ci/compare/v2.13.3...v2.13.4) (2023-06-21)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **test:** videojs 8.5.0 migration ([eaf814a](https://github.com/amtins/super-duper-ci/commit/eaf814aece89fe41f61f9c2d90cfa7cf1d1b0c93))
+
+
+### 🧹 Chore
+
+* **github-actions:** release prelease action ([699d377](https://github.com/amtins/super-duper-ci/commit/699d37747a9fc8a023103f94a5e26cbb46a31be3))
+
 ## [2.13.3](https://github.com/amtins/super-duper-ci/compare/v2.13.2...v2.13.3) (2023-04-08)
 
 
