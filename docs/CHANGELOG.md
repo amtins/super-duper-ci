@@ -1,3 +1,10 @@
+## [2.15.3-main.1](https://github.com/amtins/super-duper-ci/compare/v2.15.2...v2.15.3-main.1) (2023-06-21)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* add pre-release property ([d253fd7](https://github.com/amtins/super-duper-ci/commit/d253fd722e6d8d03df405712419e77d89a1b0ca5))
+
 ## [2.15.2](https://github.com/amtins/super-duper-ci/compare/v2.15.1...v2.15.2) (2023-06-21)
 
 
