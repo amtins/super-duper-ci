@@ -1,3 +1,10 @@
+## [2.15.2](https://github.com/amtins/super-duper-ci/compare/v2.15.1...v2.15.2) (2023-06-21)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* pre-release channel latest ([34b96d8](https://github.com/amtins/super-duper-ci/commit/34b96d8c5a3fc273e584ca779c590a476c39ba72))
+
 ## [2.15.1](https://github.com/amtins/super-duper-ci/compare/v2.15.0...v2.15.1) (2023-06-21)
 
 
