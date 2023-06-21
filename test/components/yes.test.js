@@ -8,8 +8,12 @@ describe('YesButton', () => {
   describe('handleClick', () => {
     it('should console Yes and its component\'s name', () => {
       const consoleLog = jest.spyOn(console, 'log').mockImplementation(() => {});
+      const divEl = document.createElement('div');
+
+      divEl['options_'] = {experimentalSvgIcons: undefined};
+
       const helloButton = new YesButton(
-        document.createElement('div'),
+        divEl,
         undefined
       );
 
