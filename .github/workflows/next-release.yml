@@ -2,7 +2,7 @@ name: Pre Release
 on:
   push:
     branches:
-      - pre-release
+      - main
 jobs:
   linter-test:
     name: Run eslint and unit tests
