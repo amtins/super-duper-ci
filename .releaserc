@@ -3,6 +3,10 @@
     {
       "name": "main",
       "channel": "next"
+    },
+    {
+      "name": "pre-release",
+      "channel": "latest"
     }
   ],
   "plugins": [
