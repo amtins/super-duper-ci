@@ -8,8 +8,11 @@ describe('HelloButton', () => {
   describe('handleClick', () => {
     it('should console Hello', () => {
       const consoleLog = jest.spyOn(console, 'log').mockImplementation(() => {});
+      const divEl = document.createElement('div');
+      divEl['options_'] = {experimentalSvgIcons: undefined};
+
       const helloButton = new HelloButton(
-        document.createElement('div'),
+        divEl,
         undefined
       );
 
