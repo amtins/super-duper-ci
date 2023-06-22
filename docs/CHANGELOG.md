@@ -1,3 +1,10 @@
+## [2.16.1](https://github.com/amtins/super-duper-ci/compare/v2.16.0...v2.16.1) (2023-06-22)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* echo github event release ([3e96552](https://github.com/amtins/super-duper-ci/commit/3e9655293ed33ec27d64395f34f651caf0137a9c))
+
 ## [2.16.0](https://github.com/amtins/super-duper-ci/compare/v2.15.2...v2.16.0) (2023-06-22)
 
 
