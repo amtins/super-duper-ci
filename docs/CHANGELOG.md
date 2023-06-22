@@ -1,3 +1,10 @@
+## [2.18.0](https://github.com/amtins/super-duper-ci/compare/v2.17.0...v2.18.0) (2023-06-22)
+
+
+### 🚀 New Features
+
+* release dist tag main to latest ([08d5649](https://github.com/amtins/super-duper-ci/commit/08d5649142bed2b960dfde3ec56dc8d5d35706e7))
+
 ## [2.17.0](https://github.com/amtins/super-duper-ci/compare/v2.16.2...v2.17.0) (2023-06-22)
 
 
