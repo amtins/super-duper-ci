@@ -10,7 +10,12 @@ jobs:
     steps:
       - name: Check branch
       # if: ${{ github.event.release ===}}
-        run: echo ${{ toJson(github.event.release) }}
+        run: |
+          echo ${{ github.ref_type }}
+          echo ${{ github.ref_name }}
+          echo ${{ toJson(github.event.release) }}
+          echo ${{ toJson(github.event) }}
+          echo ${{ toJson(github) }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup node
