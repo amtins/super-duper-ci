@@ -1,3 +1,10 @@
+## [2.18.1](https://github.com/amtins/super-duper-ci/compare/v2.18.0...v2.18.1) (2023-06-22)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* remove code & add exit status ([00eb3cd](https://github.com/amtins/super-duper-ci/commit/00eb3cd42f49ba51147b6e27e1ab773afe5af89c))
+
 ## [2.18.0](https://github.com/amtins/super-duper-ci/compare/v2.17.0...v2.18.0) (2023-06-22)
 
 
