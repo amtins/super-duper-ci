@@ -8,16 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check branch
-      # if: ${{ github.event.release ===}}
-        run: |
-          # echo ${{ github.ref_type }}
-          # echo ${{ github.ref_name }}
-          # echo ${{ toJson(github.event.release) }}
-          # echo ${{ toJson(github.event) }}
-          echo ${{ toJson(github) }}
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -28,6 +18,6 @@ jobs:
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
           npm dist-tag add @amtins/super-duper-ci@$(npm view @amtins/super-duper-ci dist-tags.main) latest
-          # npm publish --tag next
+          exit 0
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
