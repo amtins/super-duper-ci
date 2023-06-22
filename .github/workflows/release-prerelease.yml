@@ -2,7 +2,7 @@ name: Release Prerelease
 
 on:
   release:
-    types: [published, edited, released]
+    types: [released]
 
 jobs:
   build:
@@ -11,10 +11,10 @@ jobs:
       - name: Check branch
       # if: ${{ github.event.release ===}}
         run: |
-          echo ${{ github.ref_type }}
-          echo ${{ github.ref_name }}
-          echo ${{ toJson(github.event.release) }}
-          echo ${{ toJson(github.event) }}
+          # echo ${{ github.ref_type }}
+          # echo ${{ github.ref_name }}
+          # echo ${{ toJson(github.event.release) }}
+          # echo ${{ toJson(github.event) }}
           echo ${{ toJson(github) }}
       - name: Checkout
         uses: actions/checkout@v3
@@ -27,6 +27,7 @@ jobs:
           scope: '@amtins'
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
-          npm publish --tag next
+          npm dist-tag add @amtins/super-duper-ci@$(npm view @amtins/super-duper-ci dist-tags.main) latest
+          # npm publish --tag next
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
