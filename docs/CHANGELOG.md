@@ -1,3 +1,21 @@
+## [2.16.0](https://github.com/amtins/super-duper-ci/compare/v2.15.2...v2.16.0) (2023-06-22)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* add pre-release property ([d253fd7](https://github.com/amtins/super-duper-ci/commit/d253fd722e6d8d03df405712419e77d89a1b0ca5))
+* main no channel ([fe289d1](https://github.com/amtins/super-duper-ci/commit/fe289d131a7f691094dfa077fbeb594ad07fdf7f))
+
+
+### 🚀 New Features
+
+* event release ([18c5ced](https://github.com/amtins/super-duper-ci/commit/18c5ced2415d89c1e8e0e600be67e9cce1f595bc))
+
+
+### 🧹 Chore
+
+* **release:** 2.15.3-main.1 [skip ci] ([365d11d](https://github.com/amtins/super-duper-ci/commit/365d11d55147d5028edf631b1955686e70d683cd))
+
 ## [2.15.3-main.1](https://github.com/amtins/super-duper-ci/compare/v2.15.2...v2.15.3-main.1) (2023-06-21)
 
 
