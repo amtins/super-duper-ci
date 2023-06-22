@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Check branch
       # if: ${{ github.event.release ===}}
-        run: echo "EVENT ${{ github.event.release }}"
+        run: echo ${{ github.event.release }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup node
