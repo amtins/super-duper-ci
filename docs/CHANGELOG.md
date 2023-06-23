@@ -1,3 +1,10 @@
+## [2.20.2](https://github.com/amtins/super-duper-ci/compare/v2.20.1...v2.20.2) (2023-06-23)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* set main release channel ([4244936](https://github.com/amtins/super-duper-ci/commit/42449363c1a54b8e509451efb08a5cdfa666de0c))
+
 ## [2.20.1](https://github.com/amtins/super-duper-ci/compare/v2.20.0...v2.20.1) (2023-06-23)
 
 
