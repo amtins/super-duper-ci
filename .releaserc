@@ -4,7 +4,8 @@
       "name": "main"
     },
     {
-      "name": "latest"
+      "name": "latest",
+      "channel": "latest"
     }
   ],
   "plugins": [
