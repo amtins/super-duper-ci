@@ -1,3 +1,10 @@
+## [2.20.4](https://github.com/amtins/super-duper-ci/compare/v2.20.3...v2.20.4) (2023-06-23)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* define channel latest ([d24dc81](https://github.com/amtins/super-duper-ci/commit/d24dc815e44ae0d906df422ef89f0c6e4872c54d))
+
 ## [2.20.3](https://github.com/amtins/super-duper-ci/compare/v2.20.2...v2.20.3) (2023-06-23)
 
 
