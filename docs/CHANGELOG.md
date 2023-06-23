@@ -1,3 +1,10 @@
+## [2.21.0](https://github.com/amtins/super-duper-ci/compare/v2.20.4...v2.21.0) (2023-06-23)
+
+
+### 🚀 New Features
+
+* force spacing after return keyword ([a436dbe](https://github.com/amtins/super-duper-ci/commit/a436dbe80c5558591d3cd3bb6b43389ce2c27506))
+
 ## [2.20.4](https://github.com/amtins/super-duper-ci/compare/v2.20.3...v2.20.4) (2023-06-23)
 
 
