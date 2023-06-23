@@ -1,3 +1,10 @@
+## [2.21.1](https://github.com/amtins/super-duper-ci/compare/v2.21.0...v2.21.1) (2023-06-23)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* change branch order ([d84b8a0](https://github.com/amtins/super-duper-ci/commit/d84b8a0d29b4c48bc767d0d7e6e803faf301a2f8))
+
 ## [2.21.0](https://github.com/amtins/super-duper-ci/compare/v2.20.4...v2.21.0) (2023-06-23)
 
 
