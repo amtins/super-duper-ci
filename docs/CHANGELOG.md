@@ -1,3 +1,11 @@
+## [2.20.3](https://github.com/amtins/super-duper-ci/compare/v2.20.2...v2.20.3) (2023-06-23)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* conf latest branch only ([81b8fed](https://github.com/amtins/super-duper-ci/commit/81b8fed5437c21647fa6c863a7cbdf701b8b2ac0))
+* release note set pre-release ([c06911a](https://github.com/amtins/super-duper-ci/commit/c06911aabf9cf2319848d5b4fc3e39b967a6734e))
+
 ## [2.20.2](https://github.com/amtins/super-duper-ci/compare/v2.20.1...v2.20.2) (2023-06-23)
 
 
