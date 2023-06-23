@@ -9,7 +9,6 @@ import videojs from 'video.js';
  * @extends Button
  */
 class YesButton extends videojs.getComponent('Button') {
-
   #message = YesButton.name;
 
   /**
@@ -30,7 +29,7 @@ class YesButton extends videojs.getComponent('Button') {
    * @returns {String}
    */
   buildCSSClass() {
-    return`super-yes-button ${super.buildCSSClass()}`.trim();
+    return `super-yes-button ${super.buildCSSClass()}`.trim();
   }
 }
 
