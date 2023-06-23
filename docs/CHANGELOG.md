@@ -1,3 +1,10 @@
+## [2.19.0](https://github.com/amtins/super-duper-ci/compare/v2.18.1...v2.19.0) (2023-06-23)
+
+
+### 🚀 New Features
+
+* clean actions ([789dbbd](https://github.com/amtins/super-duper-ci/commit/789dbbd76ddd2a427d35ab8deabd1e04b834a3ad))
+
 ## [2.18.1](https://github.com/amtins/super-duper-ci/compare/v2.18.0...v2.18.1) (2023-06-22)
 
 
