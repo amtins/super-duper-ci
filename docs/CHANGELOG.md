@@ -1,3 +1,10 @@
+## [2.20.1](https://github.com/amtins/super-duper-ci/compare/v2.20.0...v2.20.1) (2023-06-23)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* remove default release channel to latest ([c6a24fb](https://github.com/amtins/super-duper-ci/commit/c6a24fb4dd99768a6b4613672bf062fae94741bb))
+
 ## [2.20.0](https://github.com/amtins/super-duper-ci/compare/v2.19.0...v2.20.0) (2023-06-23)
 
 
