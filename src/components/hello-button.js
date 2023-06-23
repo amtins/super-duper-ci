@@ -27,7 +27,7 @@ class HelloButton extends videojs.getComponent('Button') {
    * @returns {String}
    */
   buildCSSClass() {
-    return`super-hello-button ${super.buildCSSClass()}`.trim();
+    return `super-hello-button ${super.buildCSSClass()}`.trim();
   }
 }
 

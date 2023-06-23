@@ -27,7 +27,7 @@ class HiButton extends videojs.getComponent('Button') {
    * @returns {String}
    */
   buildCSSClass() {
-    return`super-hi-button ${super.buildCSSClass()}`.trim();
+    return `super-hi-button ${super.buildCSSClass()}`.trim();
   }
 }
 

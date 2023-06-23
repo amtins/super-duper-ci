@@ -32,7 +32,7 @@ class CustomButton extends videojs.getComponent('Button') {
    * @returns {String}
    */
   buildCSSClass() {
-    return`super-custom-button ${super.buildCSSClass()}`.trim();
+    return `super-custom-button ${super.buildCSSClass()}`.trim();
   }
 }
 
