@@ -2,7 +2,8 @@
   "branches": [
     {
       "name": "main",
-      "channel": "main"
+      "channel": "main",
+      "prerelease": true
     }
   ],
   "plugins": [
