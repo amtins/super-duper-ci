@@ -1,7 +1,8 @@
 {
   "branches": [
     {
-      "name": "main"
+      "name": "main",
+      "channel": false
     }
   ],
   "plugins": [
