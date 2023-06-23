@@ -1,3 +1,15 @@
+## [2.20.0](https://github.com/amtins/super-duper-ci/compare/v2.19.0...v2.20.0) (2023-06-23)
+
+
+### 🚀 New Features
+
+* remove npm-publish-github-packages file ([2fe1746](https://github.com/amtins/super-duper-ci/commit/2fe174613cf8a8c8944d5d432cfe0aa7f5d0bda2))
+
+
+### 🧹 Chore
+
+* remove pre-release ([1b48e3d](https://github.com/amtins/super-duper-ci/commit/1b48e3d3d13e6d128d4316fa62ea8c03bf363714))
+
 ## [2.19.0](https://github.com/amtins/super-duper-ci/compare/v2.18.1...v2.19.0) (2023-06-23)
 
 
