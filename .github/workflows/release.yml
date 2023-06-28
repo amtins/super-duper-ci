@@ -20,4 +20,4 @@ jobs:
           npm dist-tag add @amtins/super-duper-ci@$(npm view @amtins/super-duper-ci dist-tags.main) latest
           exit 0
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
