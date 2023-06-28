@@ -1,3 +1,10 @@
+## [2.22.0](https://github.com/amtins/super-duper-ci/compare/v2.21.8...v2.22.0) (2023-06-28)
+
+
+### 🚀 New Features
+
+* **github-actions:** print github properties ([595b6c1](https://github.com/amtins/super-duper-ci/commit/595b6c1d8d4e6a2f861e1ade2d0ce46e3f7ccfdd))
+
 ## [2.21.8](https://github.com/amtins/super-duper-ci/compare/v2.21.7...v2.21.8) (2023-06-28)
 
 
