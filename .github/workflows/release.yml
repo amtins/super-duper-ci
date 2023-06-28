@@ -13,6 +13,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          always-auth: true
+          registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
