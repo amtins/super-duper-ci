@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          scope: '@amtins'
       - run: |
           npm dist-tag ls @amtins/super-duper-ci
           npm dist-tag add @amtins/super-duper-ci@$(npm view @amtins/super-duper-ci dist-tags.main) latest
