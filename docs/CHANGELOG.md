@@ -1,3 +1,10 @@
+## [2.21.7](https://github.com/amtins/super-duper-ci/compare/v2.21.6...v2.21.7) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add scope to release aciton ([359aaca](https://github.com/amtins/super-duper-ci/commit/359aaca5b2641375eec2f2c471f565d82f99d832))
+
 ## [2.21.6](https://github.com/amtins/super-duper-ci/compare/v2.21.5...v2.21.6) (2023-06-28)
 
 
