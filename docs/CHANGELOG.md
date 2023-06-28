@@ -1,3 +1,10 @@
+## [2.21.6](https://github.com/amtins/super-duper-ci/compare/v2.21.5...v2.21.6) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add node auth token ([dd40a21](https://github.com/amtins/super-duper-ci/commit/dd40a2187ea50336c25a024b9d9b5223858e6e3d))
+
 ## [2.21.5](https://github.com/amtins/super-duper-ci/compare/v2.21.4...v2.21.5) (2023-06-28)
 
 
