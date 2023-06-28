@@ -41,8 +41,7 @@ jobs:
         run: npm run release:ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
-          NODE_AUTH_TOKEN: ${{ secrets.SUPER_DUPER_CI }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Distribution tag publish failed 🫣
         if: failure()
