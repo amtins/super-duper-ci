@@ -1,3 +1,10 @@
+## [2.21.8](https://github.com/amtins/super-duper-ci/compare/v2.21.7...v2.21.8) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add registry url and always auth properties ([7fd1f5b](https://github.com/amtins/super-duper-ci/commit/7fd1f5b5b79a083d82f4e93d110e59d44e60a06e))
+
 ## [2.21.7](https://github.com/amtins/super-duper-ci/compare/v2.21.6...v2.21.7) (2023-06-28)
 
 
