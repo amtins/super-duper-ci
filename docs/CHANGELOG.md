@@ -1,3 +1,10 @@
+## [2.21.5](https://github.com/amtins/super-duper-ci/compare/v2.21.4...v2.21.5) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add github-token & remove permissions properties ([ea73df7](https://github.com/amtins/super-duper-ci/commit/ea73df7120c3888fa65414c5edd40f3f670c368e))
+
 ## [2.21.4](https://github.com/amtins/super-duper-ci/compare/v2.21.3...v2.21.4) (2023-06-28)
 
 
