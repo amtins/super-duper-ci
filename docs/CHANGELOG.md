@@ -1,3 +1,10 @@
+## [2.21.4](https://github.com/amtins/super-duper-ci/compare/v2.21.3...v2.21.4) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** remove npm registry auth ([e72cb8b](https://github.com/amtins/super-duper-ci/commit/e72cb8b912cff34fdb5b4be0ca155a5d2ec87149))
+
 ## [2.21.3](https://github.com/amtins/super-duper-ci/compare/v2.21.2...v2.21.3) (2023-06-28)
 
 
