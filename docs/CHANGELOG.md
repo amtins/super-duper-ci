@@ -1,3 +1,10 @@
+## [2.21.3](https://github.com/amtins/super-duper-ci/compare/v2.21.2...v2.21.3) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add permissions ([18bb26e](https://github.com/amtins/super-duper-ci/commit/18bb26eee420e7e6b02a3f1ca2722b9bfdb598a8))
+
 ## [2.21.2](https://github.com/amtins/super-duper-ci/compare/v2.21.1...v2.21.2) (2023-06-28)
 
 
