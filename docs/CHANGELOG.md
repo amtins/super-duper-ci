@@ -1,3 +1,10 @@
+## [2.21.2](https://github.com/amtins/super-duper-ci/compare/v2.21.1...v2.21.2) (2023-06-28)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** use default github secret to deploy ([00090d9](https://github.com/amtins/super-duper-ci/commit/00090d95ca84eca87cf886c8ad58e9ab4744adda))
+
 ## [2.21.1](https://github.com/amtins/super-duper-ci/compare/v2.21.0...v2.21.1) (2023-06-23)
 
 
