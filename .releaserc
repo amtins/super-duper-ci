@@ -1,7 +1,7 @@
 {
   "branches": [
     {
-      "name": "latest",
+      "name": "unused",
       "channel": "latest"
     },
     {
