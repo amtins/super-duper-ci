@@ -1,3 +1,10 @@
+## [2.22.1](https://github.com/amtins/super-duper-ci/compare/v2.22.0...v2.22.1) (2023-06-29)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** remove npm auth & json log ([19062f6](https://github.com/amtins/super-duper-ci/commit/19062f655e0026c455de7cdeae9463a83c95dfc1))
+
 ## [2.22.0](https://github.com/amtins/super-duper-ci/compare/v2.21.8...v2.22.0) (2023-06-28)
 
 
