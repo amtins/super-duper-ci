@@ -1,3 +1,10 @@
+## [2.24.0](https://github.com/amtins/super-duper-ci/compare/v2.23.0...v2.24.0) (2023-06-29)
+
+
+### 🚀 New Features
+
+* **semantic-release:** add unused branch ([ad66ff8](https://github.com/amtins/super-duper-ci/commit/ad66ff88c666871ae87acd56210d1f5ab9751eb6))
+
 ## [2.23.0](https://github.com/amtins/super-duper-ci/compare/v2.22.1...v2.23.0) (2023-06-29)
 
 
