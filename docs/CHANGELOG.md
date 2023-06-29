@@ -1,3 +1,10 @@
+## [2.23.0](https://github.com/amtins/super-duper-ci/compare/v2.22.1...v2.23.0) (2023-06-29)
+
+
+### 🚀 New Features
+
+* **version:** describe function ([1783b49](https://github.com/amtins/super-duper-ci/commit/1783b497f0ca7e686acd06887e24b0dd6001d036))
+
 ## [2.22.1](https://github.com/amtins/super-duper-ci/compare/v2.22.0...v2.22.1) (2023-06-29)
 
 
