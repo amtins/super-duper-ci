@@ -1,3 +1,10 @@
+## [2.28.0](https://github.com/amtins/super-duper-ci/compare/v2.27.2...v2.28.0) (2023-06-30)
+
+
+### 🚀 New Features
+
+* **github-action:** echo github as json ([a7975b1](https://github.com/amtins/super-duper-ci/commit/a7975b17c0e2e941e905126083a0efe76bbdf22b))
+
 ## [2.27.2](https://github.com/amtins/super-duper-ci/compare/v2.27.1...v2.27.2) (2023-06-30)
 
 
