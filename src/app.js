@@ -5,7 +5,7 @@ import './components/custom-button.js';
 
 // videojs
 window.videojs = videojs;
-// init player
+// init player with sources
 window.player = videojs('player', {
   controls: true,
   customButton: true,
