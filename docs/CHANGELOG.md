@@ -1,3 +1,10 @@
+## [2.28.2](https://github.com/amtins/super-duper-ci/compare/v2.28.1...v2.28.2) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** add missing quote ([6e03784](https://github.com/amtins/super-duper-ci/commit/6e037842ee636040f36c955264c2f0b74529f087))
+
 ## [2.28.1](https://github.com/amtins/super-duper-ci/compare/v2.28.0...v2.28.1) (2023-06-30)
 
 
