@@ -1,3 +1,10 @@
+## [2.27.1](https://github.com/amtins/super-duper-ci/compare/v2.27.0...v2.27.1) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** remove token in publish tag workflow ([8ffd143](https://github.com/amtins/super-duper-ci/commit/8ffd14378b44d1369b1b5127c97214ac605be579))
+
 ## [2.27.0](https://github.com/amtins/super-duper-ci/compare/v2.26.3...v2.27.0) (2023-06-30)
 
 
