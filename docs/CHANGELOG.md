@@ -1,3 +1,16 @@
+## [2.26.0](https://github.com/amtins/super-duper-ci/compare/v2.25.0...v2.26.0) (2023-06-30)
+
+
+### 🚀 New Features
+
+* **app:** add comment ([2deff1d](https://github.com/amtins/super-duper-ci/commit/2deff1d410a6d0470a31e4be926b4d9d9e8f3dab))
+* **github-actions:** add secret ([9639ef8](https://github.com/amtins/super-duper-ci/commit/9639ef88048c6f71856be24a36bb57f0241a168a))
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** add token & fetch depth ([1ab0267](https://github.com/amtins/super-duper-ci/commit/1ab02674e60f2661a50f5fc0798d00ad9095b720))
+
 ## [2.25.0](https://github.com/amtins/super-duper-ci/compare/v2.24.0...v2.25.0) (2023-06-30)
 
 
