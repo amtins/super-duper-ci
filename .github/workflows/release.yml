@@ -17,6 +17,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
       - run: |
+          echo ${{ toJson(github) }}
           latest=$(echo ${{github.ref}} | tr -d 'v')
           npm dist-tag add @amtins/super-duper-ci@$(echo $latest) latest
           exit 0
