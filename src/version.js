@@ -1,6 +1,10 @@
 import {version} from '../package.json';
 
-// returns the app version
+/**
+ * Returns the app version
+ *
+ * @returns {string}
+ */
 const getAppVersion = () => version;
 
 export default getAppVersion;
