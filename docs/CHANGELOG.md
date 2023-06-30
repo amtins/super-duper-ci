@@ -1,3 +1,10 @@
+## [2.28.4](https://github.com/amtins/super-duper-ci/compare/v2.28.3...v2.28.4) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** add missing echo ([2882092](https://github.com/amtins/super-duper-ci/commit/2882092cf2c7371c9f7d03053f0443b616e7173e))
+
 ## [2.28.3](https://github.com/amtins/super-duper-ci/compare/v2.28.2...v2.28.3) (2023-06-30)
 
 
