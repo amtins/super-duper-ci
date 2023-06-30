@@ -1,3 +1,10 @@
+## [2.26.1](https://github.com/amtins/super-duper-ci/compare/v2.26.0...v2.26.1) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** remove fetch in linter workflow ([9dc5a39](https://github.com/amtins/super-duper-ci/commit/9dc5a395165c3a7e4d3f74790428693f8f846f93))
+
 ## [2.26.0](https://github.com/amtins/super-duper-ci/compare/v2.25.0...v2.26.0) (2023-06-30)
 
 
