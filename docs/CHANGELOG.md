@@ -1,3 +1,10 @@
+## [2.26.3](https://github.com/amtins/super-duper-ci/compare/v2.26.2...v2.26.3) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** remove fetch-depth in publish tag workflow ([7ca3acf](https://github.com/amtins/super-duper-ci/commit/7ca3acf2d9884681693fccdcdc299fbfbc0b5927))
+
 ## [2.26.2](https://github.com/amtins/super-duper-ci/compare/v2.26.1...v2.26.2) (2023-06-30)
 
 
