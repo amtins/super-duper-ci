@@ -1,3 +1,10 @@
+## [2.27.2](https://github.com/amtins/super-duper-ci/compare/v2.27.1...v2.27.2) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** promote tag to release ([1bbc1df](https://github.com/amtins/super-duper-ci/commit/1bbc1df3c2d50d240962bae748c49fc21cb9b7ec)), closes [#105](https://github.com/amtins/super-duper-ci/issues/105)
+
 ## [2.27.1](https://github.com/amtins/super-duper-ci/compare/v2.27.0...v2.27.1) (2023-06-30)
 
 
