@@ -1,3 +1,10 @@
+## [2.26.2](https://github.com/amtins/super-duper-ci/compare/v2.26.1...v2.26.2) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-action:** remove secret in linter workflow ([37ba7ae](https://github.com/amtins/super-duper-ci/commit/37ba7aefdca1090110a6ac95e981062e7123474f))
+
 ## [2.26.1](https://github.com/amtins/super-duper-ci/compare/v2.26.0...v2.26.1) (2023-06-30)
 
 
