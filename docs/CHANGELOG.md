@@ -1,3 +1,10 @@
+## [2.27.0](https://github.com/amtins/super-duper-ci/compare/v2.26.3...v2.27.0) (2023-06-30)
+
+
+### 🚀 New Features
+
+* **app:** add comment init player ([b1c0a10](https://github.com/amtins/super-duper-ci/commit/b1c0a10620b7730f332aca941448ce6812e0a6db))
+
 ## [2.26.3](https://github.com/amtins/super-duper-ci/compare/v2.26.2...v2.26.3) (2023-06-30)
 
 
