@@ -1,3 +1,22 @@
+## [2.25.0](https://github.com/amtins/super-duper-ci/compare/v2.24.0...v2.25.0) (2023-06-30)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* **github-actions:** rename jobs ([acda2a3](https://github.com/amtins/super-duper-ci/commit/acda2a36068323185fc2af6660a2b1374c331a85))
+
+
+### 🚀 New Features
+
+* **github-actions:** add linter & test workflow ([d4cd7eb](https://github.com/amtins/super-duper-ci/commit/d4cd7eba3c5221ed688d7a379a27b31fa1d5a476))
+* **version:** add jsdoc ([7677585](https://github.com/amtins/super-duper-ci/commit/76775850edda3213ec8e1b7cbfc6328f0954a711))
+
+
+### 🧹 Chore
+
+* **github-actions:** delete lint & test from publish tag workflow ([919a27e](https://github.com/amtins/super-duper-ci/commit/919a27e42edfd2429486b9c6bcf313664f7917a1))
+* **github-actions:** delete manual release workflow ([dbeed7b](https://github.com/amtins/super-duper-ci/commit/dbeed7b7c4859791029ae6ce6caa22fb6c4b12de))
+
 ## [2.24.0](https://github.com/amtins/super-duper-ci/compare/v2.23.0...v2.24.0) (2023-06-29)
 
 
