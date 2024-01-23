@@ -1,3 +1,15 @@
+## [2.29.0](https://github.com/amtins/super-duper-ci/compare/v2.28.4...v2.29.0) (2024-01-23)
+
+
+### 🚀 New Features
+
+* **file:** add feature 1 ([59f4756](https://github.com/amtins/super-duper-ci/commit/59f4756c2d1c2064e1ad238b3317fb74a1e175e6))
+
+
+### 🧹 Chore
+
+* add new file.txt ([e007183](https://github.com/amtins/super-duper-ci/commit/e0071831663532bf57c87a30b0e711edde536ac3))
+
 ## [2.28.4](https://github.com/amtins/super-duper-ci/compare/v2.28.3...v2.28.4) (2023-06-30)
 
 
