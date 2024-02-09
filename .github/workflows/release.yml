@@ -17,8 +17,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@amtins'
       - run: |
-          echo "GITHUB_PACKAGE_VERSION=$(echo "${{github.ref_name}}" | cut -c 2-)" >> $GITHUB_ENV
-          npm dist-tag add @amtins/super-duper-ci@$(echo "${{ env.GITHUB_PACKAGE_VERSION }}") latest
+          npm dist-tag add super-duper-ci@$(echo "${{github.ref_name}}" | cut -c 2-) latest
           exit 0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
