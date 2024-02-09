@@ -1,3 +1,10 @@
+## [2.30.0](https://github.com/amtins/super-duper-ci/compare/v2.29.0...v2.30.0) (2024-02-09)
+
+
+### 🚀 New Features
+
+* add feature 4 ([afb7010](https://github.com/amtins/super-duper-ci/commit/afb70105ab15376c4c2b72d2fd4091a379b14605))
+
 ## [2.29.0](https://github.com/amtins/super-duper-ci/compare/v2.28.4...v2.29.0) (2024-01-23)
 
 
