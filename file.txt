@@ -2,3 +2,4 @@
 - add feature 1
 - add feature 4
   - add fix 1
+  - add fix 2
