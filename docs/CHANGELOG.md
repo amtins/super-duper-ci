@@ -1,3 +1,10 @@
+## [2.30.1](https://github.com/amtins/super-duper-ci/compare/v2.30.0...v2.30.1) (2024-02-09)
+
+
+### 🐛 Enhancements and Bug Fixes
+
+* add fix 1 ([660d587](https://github.com/amtins/super-duper-ci/commit/660d587428491adabccea27853732707169f3532))
+
 ## [2.30.0](https://github.com/amtins/super-duper-ci/compare/v2.29.0...v2.30.0) (2024-02-09)
 
 
